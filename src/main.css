@@ -160,7 +160,7 @@ header{
 
     header{
         width:calc(100vw - 15px);
-        height: 90px;
+        height: 85px;
         padding: 0px 20px;
       
     }
@@ -172,21 +172,21 @@ header{
 
 
     #brand{
-        font-size: 18px;
+        font-size: 15px;
+ 
     }
+
+
+
+    .headerIcons{
+        width: 15px;
+    }
+
+
+
+
+
 }
-
-
-
-    
-
-
-
-
-
-
-
-
 
 
 /* - - - - - - - - - - - - - main - - - - - - - - - - - - - - */
@@ -214,7 +214,7 @@ header{
     overflow: hidden;
     padding: 0px 50px;
     box-sizing: border-box;
-    gap: 60px;
+    gap: 630%;
 }
 
 #master{
@@ -241,7 +241,8 @@ header{
 }
 
 
-.inbut{
+.inbutpri{
+    font-size: 20px;
     color: black;
     font-weight: 900;
     display: flex;
@@ -290,6 +291,7 @@ li > p{
 
 
 #two{
+   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -303,7 +305,9 @@ li > p{
     flex-direction: row;
     align-items: center;
     gap: 90px;
-    overflow: hidden;
+    overflow:scroll;
+    overflow-y: hidden;
+  
 }
 
 
@@ -315,7 +319,6 @@ li > p{
     flex-direction: row;
     align-items: center;
     background-color: #0D0D0D;
-    margin: auto;
     margin-top: 46px;
 
 }
@@ -395,9 +398,22 @@ li > p{
     margin-bottom: 40px;
 }
 
+
+
+.inbut{
+    color: black;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 #mockup{
     transform: translate(430px, 20px);
     position: absolute;
+    overflow: hidden;
 }
 
 
@@ -488,6 +504,32 @@ li > p{
 
 
 
+    
+
+.config-in{
+    width: 190px;
+    height: 295px;
+    padding: 15px;
+    border-radius: 15px;
+    transform: translate( 125px, 115px); 
+}
+
+
+
+
+
+#configElements{
+    margin-top: 0px;
+    gap: 10px;
+   
+}
+
+
+
+
+
+
+
     #one{
         margin-bottom: 10px;
     }
@@ -498,8 +540,9 @@ li > p{
     #hero{
         width: calc(100vw - 15px);
         height: 200px;
-        border-radius: 20px;
+        border-radius: 10px;
         padding: 0px 20px;
+     
 }
 
 
@@ -513,28 +556,42 @@ li > p{
         font-weight: 800;
         font-style: normal;
         color: white;
-        font-size: 20px;
+        font-size: 21px;
     }
 
 
 
     
+.inbutpri{
+    font-size: 8px;
+
+}
+
 
 
 
 
 
     p{
-        font-size: 6px;
+        font-size: 8px;
+        text-align: center;
+        z-index: 1;
     }
     
-
+    .textb{
+        position: absolute;
+    font-size: 6px;
+    transform: translate(3px, 120px);
+    color: #ffffff79;
+   
+}
 
     #phones{
         
         width: 200px;
         position: absolute;
-        transform: translate(180px, -20px);
+        transform: translate(37vw, -20px);
+        
     }
 
 
@@ -555,20 +612,19 @@ li > p{
 
     .marcas{
     
-       
-        gap: 8vw;
+        gap: 7vw;
         margin: 25px 0px;
         text-decoration: none;
         list-style: none;
     }
     
    .marc{
-    font-size: 10px;
+    font-size: 9px;
    }
 
 
     .patroc{
-    width: 10px;
+    width: 15px;
     }
 
 
@@ -590,39 +646,148 @@ li > p{
 
 
     
+
+    
+#about{
+    width: 360px;
+    margin-left: 0px;
+    padding-left: 10px;
+  
+}
+
+
+
+
 .info{
-    width: 380px ;
+    width: 430px ;
     height: 200px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: #0D0D0D;
-    margin: auto;
-    margin-top: 46px;
+    border-radius: 10px;
+ 
 
 }
 
 
 
     .blue-in{
-        width: 200px ;
+        width: 600px ;
         height: 200px;
-        border-radius: 25px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-image: url(img/back-hero.png);
-        background-size: contain;
-        padding: 47px 0px 0px 0px;
+        border-radius: 10px;
+        padding: 25px 0px 0px 0px;
     }
     
 
 
 
+    #transp-in{
+        width: 200px;
+        display: flex;
+        flex-direction:column;
+        align-items: center; 
+        padding-top: 55px;
+    
+    }
+    
+
+
+
+    #input{
+        width: 130px;
+        height: 16px;
+        border: 1px solid white;
+        background-color: transparent;
+        border-radius: 50px;
+        margin: 15px 90px 26px 90px;
+        color: white;
+        padding-left: 20px;
+    
+    }
+
+
+
+    
+.h2-info{
+    text-align: center;
+    font-size: 21px;
+}
+
+
+
+#verif{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    margin-bottom: 5px;
+    
+}
+
+
+
+.bool{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+#ok{
+
+    margin-top: 20px;
+    gap: 2px;
+}
+
+
+
+
+#prototipo{
+    width: 150px;
+    height: 40px;
+    gap: 10px;
+
+}
+
+
+
+
+#resultado{
+
+    width: calc(100vw - 15px);
+    height: 200px;
+    border-radius: 10px;
+    background-image: url(img/back-hero.png);
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+
+
+
+.inbut{
+    font-size: 15px;
+}
+
+
+
+
+
 
 #mockup{
-    
+
+    width: 200px;
+    transform: translate(50px, 10px);
     position: relative;
 }
 
